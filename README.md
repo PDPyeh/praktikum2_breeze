@@ -39,3 +39,8 @@ store
 update
 <img width="1072" height="719" alt="image" src="https://github.com/user-attachments/assets/2caa3ce5-994e-42cc-852d-a93f2082ba66" />
 
+-----
+## Praktikum 7
+## Tombol Edit dan Delete di view
+<img width="750" height="533" alt="image" src="https://github.com/user-attachments/assets/9c909ea9-34dc-4932-bb94-cec1ce5d22d9" />
+
