@@ -37,13 +37,13 @@
                         {{-- Quantity & Price --}}
                         <div class="grid grid-cols-2 gap-4">
                             <div>
-                                <label for="quantity" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+                                <label for="qty" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
                                     Quantity <span class="text-red-500">*</span>
                                 </label>
-                                <input type="number" id="quantity" name="quantity" value="{{ old('quantity') }}"
+                                <input type="number" id="qty" name="qty" value="{{ old('qty') }}"
                                     placeholder="0" min="0"
-                                    class="w-full px-4 py-2.5 rounded-lg border text-sm @error('quantity') border-red-500 bg-red-50 dark:bg-red-900/20 @else border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 @enderror text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition">
-                                @error('quantity')
+                                    class="w-full px-4 py-2.5 rounded-lg border text-sm @error('qty') border-red-500 bg-red-50 dark:bg-red-900/20 @else border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 @enderror text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition">
+                                @error('qty')
                                     <p class="mt-1.5 text-xs text-red-500">{{ $message }}</p>
                                 @enderror
                             </div>

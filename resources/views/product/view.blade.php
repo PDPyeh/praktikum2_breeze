@@ -27,7 +27,7 @@
                                 Edit
                             </a>
 
-                            <form action="{{ route('product.destroy', $product->id) }}" method="POST" onsubmit="return confirm('Are you sure you want to delete this product?')">
+                            <form action="{{ route('product.delete', $product->id) }}" method="POST" onsubmit="return confirm('Are you sure you want to delete this product?')">
                                 @csrf
                                 @method('DELETE')
                                 <button type="submit" class="inline-flex items-center gap-1.5 px-3 py-2 text-sm font-medium rounded-lg border border-red-200 dark:border-red-800 text-red-600 dark:text-red-400 hover:bg-red-50 dark:hover:bg-red-900/30 transition">
@@ -53,8 +53,8 @@
                         <div class="flex items-center px-5 py-4">
                             <div class="w-32 shrink-0 text-sm text-gray-500 dark:text-gray-400">Quantity</div>
                             <div>
-                                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium {{ $product->quantity > 10 ? 'bg-green-100 text-green-800 dark:bg-green-900/40 dark:text-green-300' : 'bg-red-100 text-red-800 dark:bg-red-900/40 dark:text-red-300' }}">
-                                    {{ $product->quantity }} ({{ $product->quantity > 10 ? 'In Stock' : 'Low Stock' }})
+                                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium {{ $product->qty > 10 ? 'bg-green-100 text-green-800 dark:bg-green-900/40 dark:text-green-300' : 'bg-red-100 text-red-800 dark:bg-red-900/40 dark:text-red-300' }}">
+                                    {{ $product->qty }} ({{ $product->qty > 10 ? 'In Stock' : 'Low Stock' }})
                                 </span>
                             </div>
                         </div>
