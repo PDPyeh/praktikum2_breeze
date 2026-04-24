@@ -24,3 +24,18 @@
 ## Migrations
 <img width="694" height="636" alt="image" src="https://github.com/user-attachments/assets/c48ee566-178f-4773-94bd-29e0c3fdcca0" />
 <img width="846" height="604" alt="image" src="https://github.com/user-attachments/assets/d11f1dd7-8bf4-4b5e-a2d5-6ed4abf45c72" />
+
+----
+## Praktikum 5
+## membuat policy
+<img width="1103" height="475" alt="image" src="https://github.com/user-attachments/assets/0f6afdab-363f-4f63-978a-0bd6bbdbfb65" />
+<img width="1106" height="469" alt="image" src="https://github.com/user-attachments/assets/4dc8e150-8582-4e57-a6c9-105252757d2d" />
+
+----
+## Praktikum 6
+## Membuat Validation
+store
+<img width="1099" height="736" alt="image" src="https://github.com/user-attachments/assets/09612a93-52bf-4321-b1d6-f4995d878794" />
+update
+<img width="1072" height="719" alt="image" src="https://github.com/user-attachments/assets/2caa3ce5-994e-42cc-852d-a93f2082ba66" />
+
